@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    height: 1200px;
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: solid 1px rgb(108, 107, 107);
+    border-radius: 15px;
+}
+.title{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.title h1{
+    font-size: 50px;
+}
+.title h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+.title p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.Details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 30px;
+    row-gap: 50px;
+}
+.StudentDetails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20PX;
+}
+
+.detailB,.detailC,.detailE{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    /* column-gap: 200PX; */
+}
+.detailB{
+    column-gap: 50px;
+}
+input{
+    height: 35px;
+    width: 320px;
+    border-radius: 4px;
+    border: solid 1px rgb(181, 179, 179);
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.detailC{
+    column-gap: 50px;
+}
+.dob{
+    margin-left: 50px;
+}
+.gender{
+    /* display: flex; */
+    height:35px;
+    width: 400px;
+    gap: 20px;
+    border-radius: 5px;
+}
+.gender select{
+    height: 30px;
+    width: 150px;
+    border: solid 1px rgb(181, 179, 179);
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+
+.ParentDetails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20PX;
+}
+.parentInfo{
+    display: flex;
+    column-gap: 45px;
+}
+.courseDetails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20PX;
+    /* margin-bottom: 20px; */
+}
+.CName{
+    margin-top:15px;
+    /* display: flex; */
+    
+}
+.courseA{
+    display: flex;
+    column-gap: 40px;
+}
+.CName select{
+    height: 35px;
+    width: 300px;
+    
+    margin-left: 10px;
+    border-radius: 5px;
+    border: solid 1px rgb(181, 179, 179);
+}
+.startDate{
+    /* display: flex; */
+    /* width: 50px; */
+    margin-top: 10px;
+}
+.time{
+    display: flex;
+    column-gap: 120px;
+}
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.mode input{
+    height: 25px;
+    width: 50px;
+    border-radius: 4px;
+    border: solid 1px rgb(181, 179, 179);
+  /* margin-left: 10px; */
+}
+.fee{
+    display: flex;
+    column-gap: 30px; 
+}
+button{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(61, 61, 172);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 360px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+a{
+    margin-left: 365px;
+    margin-top: 10px;
+}
+.anchor{
+    margin-bottom: 50px;
+}
